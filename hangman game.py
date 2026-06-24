@@ -2,7 +2,7 @@
 from wordslist import words
 import random
 
-
+#Display the art
 hangman_art = {0: ("  ",
                    "  ",
                    "  "),
@@ -24,8 +24,6 @@ hangman_art = {0: ("  ",
                6: ("   o   ",
                    "  /|\\ ",
                    "  / \\ ")}
-
-
 
 def display_man(wrong_guesses):
     for line in hangman_art[wrong_guesses]:
